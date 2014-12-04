@@ -15,6 +15,10 @@
 		63FCEC4F1A2FD85600E7FDC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FCEC4E1A2FD85600E7FDC4 /* Images.xcassets */; };
 		63FCEC521A2FD85600E7FDC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FCEC501A2FD85600E7FDC4 /* LaunchScreen.xib */; };
 		63FCEC5E1A2FD85600E7FDC4 /* RocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCEC5D1A2FD85600E7FDC4 /* RocketsTests.swift */; };
+		63FCEC6C1A2FD87F00E7FDC4 /* Websocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCEC681A2FD87F00E7FDC4 /* Websocket.swift */; };
+		63FCEC6D1A2FD87F00E7FDC4 /* Phoenix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCEC691A2FD87F00E7FDC4 /* Phoenix.swift */; };
+		63FCEC6E1A2FD87F00E7FDC4 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCEC6A1A2FD87F00E7FDC4 /* Json.swift */; };
+		63FCEC6F1A2FD87F00E7FDC4 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCEC6B1A2FD87F00E7FDC4 /* Serializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		63FCEC571A2FD85600E7FDC4 /* RocketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FCEC5C1A2FD85600E7FDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63FCEC5D1A2FD85600E7FDC4 /* RocketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsTests.swift; sourceTree = "<group>"; };
+		63FCEC681A2FD87F00E7FDC4 /* Websocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Websocket.swift; sourceTree = "<group>"; };
+		63FCEC691A2FD87F00E7FDC4 /* Phoenix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phoenix.swift; sourceTree = "<group>"; };
+		63FCEC6A1A2FD87F00E7FDC4 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		63FCEC6B1A2FD87F00E7FDC4 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		63FCEC401A2FD85600E7FDC4 /* Rockets */ = {
 			isa = PBXGroup;
 			children = (
+				63FCEC671A2FD87400E7FDC4 /* Phoenix */,
 				63FCEC431A2FD85600E7FDC4 /* AppDelegate.swift */,
 				63FCEC451A2FD85600E7FDC4 /* GameScene.sks */,
 				63FCEC471A2FD85600E7FDC4 /* GameScene.swift */,
@@ -116,6 +125,17 @@
 				63FCEC5C1A2FD85600E7FDC4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63FCEC671A2FD87400E7FDC4 /* Phoenix */ = {
+			isa = PBXGroup;
+			children = (
+				63FCEC681A2FD87F00E7FDC4 /* Websocket.swift */,
+				63FCEC691A2FD87F00E7FDC4 /* Phoenix.swift */,
+				63FCEC6A1A2FD87F00E7FDC4 /* Json.swift */,
+				63FCEC6B1A2FD87F00E7FDC4 /* Serializable.swift */,
+			);
+			name = Phoenix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FCEC6F1A2FD87F00E7FDC4 /* Serializable.swift in Sources */,
 				63FCEC481A2FD85600E7FDC4 /* GameScene.swift in Sources */,
+				63FCEC6D1A2FD87F00E7FDC4 /* Phoenix.swift in Sources */,
+				63FCEC6C1A2FD87F00E7FDC4 /* Websocket.swift in Sources */,
+				63FCEC6E1A2FD87F00E7FDC4 /* Json.swift in Sources */,
 				63FCEC4A1A2FD85600E7FDC4 /* GameViewController.swift in Sources */,
 				63FCEC441A2FD85600E7FDC4 /* AppDelegate.swift in Sources */,
 			);
