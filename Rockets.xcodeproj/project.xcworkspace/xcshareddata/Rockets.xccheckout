@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8C1079A-170C-453D-AC38-F4DAFA287435</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rockets</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D89ACF2BC7233982707EFC32BF87ECED41858B69</key>
+		<string>github.com:davidstump/rockets.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rockets.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D89ACF2BC7233982707EFC32BF87ECED41858B69</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:davidstump/rockets.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D89ACF2BC7233982707EFC32BF87ECED41858B69</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D89ACF2BC7233982707EFC32BF87ECED41858B69</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rockets</string>
+		</dict>
+	</array>
+</dict>
+</plist>
